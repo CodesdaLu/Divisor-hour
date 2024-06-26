@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+    <link rel="shortcut icon" type="imagex/png" href="./imagem.png">
+    <title>Divisão de Horários</title>
+</head>
+<body>
+    
+    <h1>Divisão de Horários</h1>
+    <form id="timeForm">
+        <label for="startTime">Hora Inicial (HH:MM):</label>
+        <input type="time" id="startTime" required min="00:00" max="00"><br><br>
+        
+        <label for="endTime">Hora Final (HH:MM):</label>
+        <input type="time" id="endTime" required min="00:00" max="00"><br><br>
+        
+        <label for="numPeople">Número de Pessoas:</label>
+        <input type="number" id="numPeople" min="1" max="10"><br><br>
+
+        <div id="botao">
+        
+        <button type="button" onclick="divideTimes()" id="dividir">Dividir Horários</button>
+
+        <button type="button" onclick="apagar()" id="del">Apagar</button>
+
+        </div>
+
+    </form>
+    
+
+    
+    <div id="result"></div>
+
+
+
+    
+    <footer> 
+        <div id="footer">
+            <p class="copyright text-center"> Desenvolvido: Luana Araruna © 2024 - Todos os direitos reservados.</p>
+            <a href="https://www.linkedin.com/in/luanaararuna/"><img src="./linkedin (1).png" class="linkedin" alt="Linked-in logo" width="30"></a>
+            <a href="https://www.instagram.com/luhararuna/?hl=pt"><img src="./instagram.png" class="instagram" alt="instagram" width="30"></a>
+            <a href="https://github.com/CodesdaLu"><img src="./github.png" class="github" alt="github" width="30"></a>
+        </div>
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

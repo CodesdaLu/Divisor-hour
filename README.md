@@ -1,5 +1,9 @@
 # HourSplitter
 
+
+<br>[PT] Foi criado com objetivo de ajudar meus amigos na divisão de horas nos seus setores de trabalho
+<br>[EN] It was created with the aim of helping my friends with the division of hours in their work sectors
+                                  
 [EN] Divisor-hour is a project developed to efficiently and organizedly divide working hours.</BR>
 [PT] Divisor-hour é um projeto desenvolvido para dividir horas de trabalho de forma eficiente e organizada.
 

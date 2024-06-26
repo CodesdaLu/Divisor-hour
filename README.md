@@ -26,3 +26,8 @@
    ```bash
    git clone https://github.com/CodesdaLu/Divisor-hour.git
 
+
+<p>My applications :</p>
+<a href="https://hour-splitter.vercel.app/" title="Hour-splitter-site">
+	<img alt="alternative text for the liked image" src="https://media4.giphy.com/media/A7LF3J4uMJQ4r8ApLg/200.gif?cid=6c09b9524zqsufg128z5tjrusgssgr3494n48i6wun65tii7&ep=v1_internal_gif_by_id&rid=200.gif&ct=s" width="100" height="50" />
+</a>

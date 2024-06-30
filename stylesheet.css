@@ -51,6 +51,7 @@ form label{
     border: 0;
     padding: 10px;
     margin: 10px;
+    margin-left: initial;
     border-radius: 10px;
     font-size: medium;
     cursor: pointer;
@@ -137,9 +138,10 @@ form label{
 
     #result{
         text-align: center;
-        margin: 20px;
         padding: 10px;
-        padding-bottom: 10%;
+        padding-bottom: 20%;
+        margin-left: initial;
+        margin-right:3%;
     }
 
     #footer {
